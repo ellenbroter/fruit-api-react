@@ -1,0 +1,28 @@
+.cards {
+	display: grid;
+	grid-template-columns: auto auto auto;
+	padding: 1rem;
+	gap: 1rem;
+}
+
+.card {
+	padding: 1rem;
+	width: 15rem;
+	font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	border-radius: 8px;
+	border: 1px solid #00ced1;
+	background-color: #eee;
+}
+
+.card li {
+	list-style-type: none;
+}
+
+.card h3 {
+	font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	border-bottom: 1px solid black;
+}
+
+.card h4 {
+	padding-top: 0.2rem;
+}
